@@ -1,15 +1,3 @@
-var swiper = new Swiper(".bg-slider-thumbs", {
-    loop: true,
-    spaceBetween: 0,
-    slidesPerView: 0,
-});
-var swiper2 = new Swiper(".bg-slider", {
-    loop: true,
-    spaceBetween: 0,
-    thumbs: {
-        swiper: swiper,
-    },
-});
 let header = document.querySelector('header');
 
 window.addEventListener('scroll', () =>{ header.classList.toggle('shadow', window.scrollY > 0);
@@ -29,3 +17,4 @@ menuBtn.addEventListener("click", () => {
 closeBtn.addEventListener("click", () => {
     navigation.classList.remove("active");
 });
+
