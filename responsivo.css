@@ -235,7 +235,14 @@
 
 @media(width: 414px) {
 
-
+.BodyText {
+  width: 100%;
+  padding-left:  3%;
+  padding-right: 3%;
+  padding-bottom: 3%;
+  padding-top: 25%;
+}
+  
   .SobNTi {
     display: flex;
     justify-content: center;
@@ -256,7 +263,13 @@
 
 @media(max-width: 390px) {
 
-
+.BodyText {
+  width: 100%;
+  padding-left:  3%;
+  padding-right: 3%;
+  padding-bottom: 3%;
+  padding-top: 25%;
+}
   .SobNTi {
     display: flex;
     justify-content: center;
@@ -318,7 +331,13 @@
 }
 
 @media(width: 430px) {
-
+.BodyText {
+  width: 100%;
+  padding-left:  3%;
+  padding-right: 3%;
+  padding-bottom: 3%;
+  padding-top: 25%;
+}
   .container .card .imgbx {
     left: 90px;
     border-radius: 220px;
@@ -344,7 +363,13 @@
 }
 
 @media(max-width: 412px) {
-
+.BodyText {
+  width: 100%;
+  padding-left:  3%;
+  padding-right: 3%;
+  padding-bottom: 3%;
+  padding-top: 25%;
+}
 
   .SobNTi {
     display: flex;
@@ -406,7 +431,13 @@
 }
 
 @media(max-width: 360px) {
-
+.BodyText {
+  width: 100%;
+  padding-left:  3%;
+  padding-right: 3%;
+  padding-bottom: 3%;
+  padding-top: 25%;
+}
 
   .SobNTi {
     display: flex;
@@ -475,6 +506,13 @@
 }
 
 @media(max-width: 300px) {
+  .BodyText {
+  width: 100%;
+  padding-left:  3%;
+  padding-right: 3%;
+  padding-bottom: 3%;
+  padding-top: 25%;
+}
   .container .card .imgbx {
     position: absolute;
     top: 68px;
@@ -559,7 +597,13 @@
 
 @media(width: 390px) {
 
-
+.BodyText {
+  width: 100%;
+  padding-left:  3%;
+  padding-right: 3%;
+  padding-bottom: 3%;
+  padding-top: 25%;
+}
   .text-content .title2slide {
     font-size: 210%;
   }
@@ -573,6 +617,13 @@
 }
 
 @media(width: 428px) {
+.BodyText {
+  width: 100%;
+  padding-left:  3%;
+  padding-right: 3%;
+  padding-bottom: 3%;
+  padding-top: 25%;
+}
 
   .text-content .title2slide {
     font-size: 210%;
@@ -595,7 +646,13 @@
 }
 
 @media(width: 360px) {
-
+.BodyText {
+  width: 100%;
+  padding-left:  3%;
+  padding-right: 3%;
+  padding-bottom: 3%;
+  padding-top: 25%;
+}
   .members .container .card .imgbx {
     border: 4px solid #0468ff;
     width: 160px;
@@ -607,7 +664,13 @@
 }
 
 @media(width: 375px) {
-
+.BodyText {
+  width: 100%;
+  padding-left:  3%;
+  padding-right: 3%;
+  padding-bottom: 3%;
+  padding-top: 25%;
+}
   .members .container .card .imgbx {
     border: 4px solid #0468ff;
     width: 180px;
@@ -631,7 +694,13 @@
 }
 
 @media(width: 360px) {
-
+.BodyText {
+  width: 100%;
+  padding-left:  3%;
+  padding-right: 3%;
+  padding-bottom: 3%;
+  padding-top: 25%;
+}
   .members .container .card .imgbx {
     left: 55px;
 
@@ -639,6 +708,13 @@
 }
 
 @media(width: 412px) {
+  .BodyText {
+  width: 100%;
+  padding-left:  3%;
+  padding-right: 3%;
+  padding-bottom: 3%;
+  padding-top: 25%;
+}
 
   .members .container .card .imgbx {
     left: 49px;
@@ -648,7 +724,13 @@
 }
 
 @media(width: 393px) {
-
+.BodyText {
+  width: 100%;
+  padding-left:  3%;
+  padding-right: 3%;
+  padding-bottom: 3%;
+  padding-top: 25%;
+}
   .members .container .card .imgbx {
     width: 190px;
     height: 190px;
@@ -681,4 +763,5 @@
   .navigation .nav-items .projetoLink {
     display: none;
   }
+
 }
