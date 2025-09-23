@@ -4,22 +4,7 @@
     width: 450px;
     height: 450px;
   }
-
-  .footer__container {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    color: black;
-    padding: 20px;
-    gap: 50px;
-  }
-
-  .footer__col h3 {
-    font-size: 1.3rem;
-    font-weight: 500;
-  }
-}
-
+  
 @media(max-width: 1100px) {
   header .nav-bar {
     padding: 0 16px;
@@ -29,16 +14,6 @@
     padding: 25px 50px;
   }
 
-  .media-icons {
-    right: 0;
-    margin-right: 50px;
-  }
-
-  .bg-slider-thumbs {
-    bottom: 3em;
-  }
-}
-
 @media(max-width: 785px) {
 
   header .nav-bar {
@@ -47,14 +22,6 @@
 
   .section {
     padding: 25px 20px;
-  }
-
-  .media-icons {
-    margin-right: 20px;
-  }
-
-  .media-icons a {
-    font-size: 1.5em;
   }
 
   .nav-menu-btn {
@@ -133,90 +100,16 @@
     margin-right: 5px;
   }
 
-  .swiper-slide .text-content .read-btn {
-    font-size: 0.9em;
-    padding: 5px 15px;
-  }
-
-  .about h2 {
-    font-size: 2.5em;
-  }
-
-  .about p {
-    font-size: 0.9em;
-  }
-
-  .swiper-slide .text-content {
-    position: absolute;
-    width: 65%;
-    color: var(--white-color);
-    transition: 0.3s ease;
-  }
-}
-
-.navigation .nav-items a.projetoLink {
-    display: block;
-}
-
 
 @media(max-width < 995px) {
-
-
-  .bg-slider-thumbs {
-    z-index: 777;
-    position: absolute;
-    bottom: 7em;
-    left: 50%;
-    margin-top: 100px;
-    transform: translateX(-50%);
-    transition: 0.3s ease;
-  }
 
   .navigation {
     padding: 10px;
   }
 
-  .swiper-slide-active .text-content p {
-    font-size: 15px;
-  }
-
-  .media-icons i {
-    color: rgb(6, 80, 241);
-    font-size: 2rem;
-  }
-
 }
 
 @media(width < 1010px) {
-
-  .cards {
-    display: flex;
-    max-width: 800px;
-    width: 100%;
-    height: 400px;
-  }
-
-  .cards .card {
-    position: relative;
-    min-width: 60px;
-    background: var(--bg);
-    overflow: hidden;
-    margin: 5px;
-    background-size: auto 150%;
-    background-position: center;
-    cursor: pointer;
-    transition: 0.5s var(--cb);
-    border-radius: 30px;
-    display: none;
-  }
-
-
-  .cards .card.active {
-    display: flex;
-    width: 100%;
-    background-size: auto 100%;
-
-  }
 
   .navigation .nav-items a {
     font-size: 14px;
@@ -239,15 +132,6 @@
     justify-content: center;
     font-size: 30px;
     color: var(--cor-destaque);
-  }
-
-  .container .card .imgbx {
-   
-    left: 80px;
-    border-radius: 220px;
-    transition: 0.5s;
-    overflow: hidden;
-    border: 4px solid #0468ff;
   }
 }
 
@@ -307,13 +191,7 @@
     border-radius: 30px;
     display: none;
   }
-
-  .cards .card.active {
-    display: flex;
-    width: 100%;
-    background-size: auto 100%;
-  }
-
+  
   .navigation .nav-items a {
     font-size: 20px;
   }
@@ -328,28 +206,7 @@
   padding-bottom: 3%;
   padding-top: 25%;
 }
-  .container .card .imgbx {
-    left: 90px;
-    border-radius: 220px;
-    transition: 0.5s;
-    overflow: hidden;
-    border: 4px solid #0468ff;
-  }
 
-}
-
-@media(max-width: 380px) {
-  .container .card .imgbx {
-    position: absolute;
-    top: 20px;
-    width: 200px;
-    height: 200px;
-    left: 40px;
-    border-radius: 220px;
-    transition: 0.5s;
-    overflow: hidden;
-    border: 4px solid #0468ff;
-  }
 }
 
 @media(max-width: 412px) {
@@ -366,45 +223,6 @@
     justify-content: center;
     font-size: 27px;
     color: var(--cor-destaque);
-  }
-
-  .container .card .imgbx {
-    position: absolute;
-    top: 20px;
-    width: 220px;
-    height: 220px;
-    left: 42px;
-    border-radius: 220px;
-    transition: 0.5s;
-    overflow: hidden;
-    border: 4px solid #0468ff;
-  }
-
-  .cards {
-    display: flex;
-    max-width: 800px;
-    width: 100%;
-    height: 400px;
-  }
-
-  .cards .card {
-    position: relative;
-    min-width: 60px;
-    background: var(--bg);
-    overflow: hidden;
-    margin: 5px;
-    background-size: auto 150%;
-    background-position: center;
-    cursor: pointer;
-    transition: 0.5s var(--cb);
-    border-radius: 30px;
-    display: none;
-  }
-
-  .cards .card.active {
-    display: flex;
-    width: 100%;
-    background-size: auto 100%;
   }
 
   .BodyText p {
@@ -443,51 +261,11 @@
     font-weight: 455;
     color: var(--cor-titulo);
   }
-
-  .container .card .imgbx {
-    position: absolute;
-    top: 40px;
-    width: 180px;
-    height: 180px;
-    left: 30px;
-    border-radius: 220px;
-    transition: 0.5s;
-    overflow: hidden;
-    border: 4px solid #0468ff;
-  }
-
-  .cards {
-    display: flex;
-    max-width: 800px;
-    width: 100%;
-    height: 400px;
-  }
-
+  
   .tituloProjetos h1 {
     color: var(--cor-destaque);
     margin-bottom: 4%;
     font-size: 33px;
-
-  }
-
-  .cards .card {
-    position: relative;
-    min-width: 60px;
-    background: var(--bg);
-    overflow: hidden;
-    margin: 5px;
-    background-size: auto 150%;
-    background-position: center;
-    cursor: pointer;
-    transition: 0.5s var(--cb);
-    border-radius: 30px;
-    display: none;
-  }
-
-  .cards .card.active {
-    display: flex;
-    width: 100%;
-    background-size: auto 100%;
   }
 
   .navigation .nav-items a {
@@ -503,18 +281,7 @@
   padding-bottom: 3%;
   padding-top: 25%;
 }
-  .container .card .imgbx {
-    position: absolute;
-    top: 68px;
-    width: 115px;
-    height: 115px;
-    left: 38px;
-    border-radius: 220px;
-    transition: 0.5s;
-    overflow: hidden;
-    border: 4px solid #0468ff;
-  }
-
+  
   .nav-bar .logo {
     color: var(--white-color);
     font-size: 1%;
@@ -523,10 +290,6 @@
     text-transform: uppercase;
     text-decoration: none;
     text-shadow: var(--text-shadow);
-  }
-
-  .swiper-slide .text-content .title {
-    font-size: 2em;
   }
 
   .SobNTi {
@@ -552,34 +315,7 @@
 }
 
 @media(max-width: 640px) {
-  .cards {
-    display: flex;
-    max-width: 800px;
-    width: 100%;
-    height: 400px;
-  }
-
-  .cards .card {
-    position: relative;
-    min-width: 60px;
-    background: var(--bg);
-    overflow: hidden;
-    margin: 5px;
-    background-size: auto 150%;
-    background-position: center;
-    cursor: pointer;
-    transition: 0.5s var(--cb);
-    border-radius: 30px;
-    display: none;
-  }
-
-
-  .cards .card.active {
-    display: flex;
-    width: 100%;
-    background-size: auto 100%;
-  }
-
+  
   .navigation .nav-items a {
     font-size: 20px;
   }
@@ -594,16 +330,6 @@
   padding-bottom: 3%;
   padding-top: 25%;
 }
-  .text-content .title2slide {
-    font-size: 210%;
-  }
-
-  .members .container .card .imgbx {
-    border: 4px solid #0468ff;
-    width: 180px;
-    height: 180px;
-    left: 60px;
-  }
 }
 
 @media(width: 428px) {
@@ -614,21 +340,9 @@
   padding-bottom: 3%;
   padding-top: 25%;
 }
-
-  .text-content .title2slide {
-    font-size: 210%;
-  }
   
   .BodyText p {
     text-align: center;
-  }
-
-  .members .container .card .imgbx {
-    border: 4px solid #0468ff;
-    width: 200px;
-    height: 200px;
-    left: 60px;
-
   }
 }
 
@@ -640,14 +354,6 @@
   padding-bottom: 3%;
   padding-top: 25%;
 }
-  .members .container .card .imgbx {
-    border: 4px solid #0468ff;
-    width: 160px;
-    height: 160px;
-    left: 50px;
-    right: 50px;
-
-  }
 }
 
 @media(width: 375px) {
@@ -658,26 +364,6 @@
   padding-bottom: 3%;
   padding-top: 25%;
 }
-  .members .container .card .imgbx {
-    border: 4px solid #0468ff;
-    width: 180px;
-    height: 180px;
-    left: 50px;
-    right: 50px;
-
-  }
-}
-
-@media(width: 360px) {
-
-  .members .container .card .imgbx {
-    border: 4px solid #0468ff;
-    width: 150px;
-    height: 150px;
-    left: 50px;
-    right: 50px;
-
-  }
 }
 
 @media(width: 360px) {
@@ -688,10 +374,6 @@
   padding-bottom: 3%;
   padding-top: 25%;
 }
-  .members .container .card .imgbx {
-    left: 55px;
-
-  }
 }
 
 @media(width: 412px) {
@@ -702,10 +384,6 @@
   padding-bottom: 3%;
   padding-top: 25%;
 }
-
-  .members .container .card .imgbx {
-    left: 49px;
-  }
 }
 
 @media(width: 393px) {
@@ -716,15 +394,9 @@
   padding-bottom: 3%;
   padding-top: 25%;
 }
-  .members .container .card .imgbx {
-    width: 190px;
-    height: 190px;
-    left: 30px;
-  }
 }
 
 @media(width < 1690px) {
-
   .ilus {
     display: none;
   }
@@ -749,3 +421,4 @@
   }
 
 }
+
